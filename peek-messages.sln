@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B6B87EB7-5F9B-4922-88FD-317D88206A6F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "peek_topic_messages", "src\peek_topic_messages\peek_topic_messages.csproj", "{25C13407-597C-48A9-9800-BA5284E7EA57}"
 EndProject
 Global
