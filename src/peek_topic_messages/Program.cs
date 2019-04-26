@@ -14,7 +14,7 @@ namespace peek_topic_messages
     {
         static void Main(string[] args)
         {
-            var serviceBusPrimaryConnectionString = ConfigurationManager.AppSettings["Assignment.ServiceBus.PrimaryConnectionString"];
+            var serviceBusPrimaryConnectionString = ConfigurationManager.AppSettings["Assignment.ServiceBus.ConnectionString"];
             //var serviceBusSecondaryConnectionString = ConfigurationManager.AppSettings["Assignment.ServiceBus.SecondaryConnectionString"];
             var topicName = ConfigurationManager.AppSettings["ServiceBus.Topic"];
             PeekMessages(serviceBusPrimaryConnectionString, topicName, "msaas-assignment-centralus");
